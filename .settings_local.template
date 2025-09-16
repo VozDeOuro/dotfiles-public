@@ -1,0 +1,12 @@
+# VozDeOuro Local Settings Template
+# ================================
+# Copy this file to .settings_local and add your actual values
+# This file contains local environment variables and credentials
+# It's sourced by .zshrc and ignored by stow
+
+# Gemini API Key
+# export GEMINI_API_KEY=your_actual_api_key_here
+
+# Add other local environment variables below
+# export ANOTHER_API_KEY=your_key_here
+# export LOCAL_PATH=/your/local/path

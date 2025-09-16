@@ -1,0 +1,45 @@
+// VozDeOuro Purple Theme for Zellij
+// =================================
+// Based on the VozDeOuro color scheme
+
+themes {
+    vozdeoro_purple {
+        fg "#f1f1f1"      // Main foreground (white)
+        bg "#1a0d26"      // Dark purple background
+        black "#121212"   // Terminal black
+        red "#a52aff"     // VozDeOuro primary purple
+        green "#7129ff"   // VozDeOuro tertiary green-purple  
+        yellow "#3d2aff"  // Deep purple
+        blue "#2b4fff"    // VozDeOuro secondary blue
+        magenta "#2883ff" // Light blue-purple
+        cyan "#28b9ff"    // VozDeOuro accent cyan
+        white "#f1f1f1"   // Light foreground
+        orange "#ba5aff"  // Bright purple-pink
+    }
+}
+
+// Apply the theme
+theme "vozdeoro_purple"
+
+// UI Configuration with VozDeOuro colors and transparency
+ui {
+    pane_frames {
+        rounded_corners true
+        hide_session_name false
+    }
+}
+
+// Enable transparency
+simplified_ui true
+default_shell "zsh"
+
+// Copy configuration
+copy_command "wl-copy"
+
+// Mouse support
+mouse_mode true
+
+// Transparency settings via environment
+env {
+    ZELLIJ_AUTO_ATTACH "true"
+}
